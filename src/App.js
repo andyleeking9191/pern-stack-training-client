@@ -7,10 +7,14 @@ import InputTodo from './components/InputTodo';
 import ListTodo from './components/ListTodo';
 
 function App() {
-  return <Fragment>
-  <InputTodo></InputTodo>
-  <ListTodo></ListTodo>
-  </Fragment>;
+  return (
+    <Fragment>
+      <div className="container">
+        <InputTodo />
+        <ListTodo />
+      </div>
+    </Fragment>
+  );
 }
 
 export default App;
